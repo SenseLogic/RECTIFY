@@ -224,7 +224,7 @@ class SnapVerticesOperator(
     def execute(
         self,
         context
-        ):
+        ) :
 
         SnapVertices( self.vertex_snapping_precision_float_property );
 
@@ -247,14 +247,14 @@ class RectifyMeshPanel(
     def poll(
         class_,
         context
-        ):
+        ) :
 
         return ( context.object is not None );
 
     def draw(
         self,
         context
-        ):
+        ) :
 
         layout = self.layout;
 
