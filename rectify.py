@@ -245,7 +245,7 @@ class RectifyMeshPanel(
 
     @classmethod
     def poll(
-        cls,
+        class_,
         context
         ):
 
