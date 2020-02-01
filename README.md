@@ -4,7 +4,7 @@
 
 Architectural 3D mesh rectifier.
 
-## Dependencies
+## Requirements
 
 Blender 2.80+
 
