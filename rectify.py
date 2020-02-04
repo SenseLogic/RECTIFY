@@ -91,9 +91,11 @@ def AlignEdges(
                     aligned_edge = edge_array[ aligned_edge_index ];
 
                     first_vertex = vertex_array[ aligned_edge.vertices[ 0 ] ];
-                    second_vertex = vertex_array[ aligned_edge.vertices[ 1 ] ];
-
                     first_vertex.co[ secondary_axis_index ] = average_vertex[ secondary_axis_index ];
+                    first_vertex.co[ tertiary_axis_index ] = average_vertex[ tertiary_axis_index ];
+
+                    second_vertex = vertex_array[ aligned_edge.vertices[ 1 ] ];
+                    second_vertex.co[ secondary_axis_index ] = average_vertex[ secondary_axis_index ];
                     second_vertex.co[ tertiary_axis_index ] = average_vertex[ tertiary_axis_index ];
 
 # ~~
