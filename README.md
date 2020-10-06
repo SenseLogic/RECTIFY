@@ -2,7 +2,7 @@
 
 # Rectify
 
-Architectural 3D mesh rectifier.
+Architectural mesh rectifier plugin for Blender.
 
 ## Requirements
 
